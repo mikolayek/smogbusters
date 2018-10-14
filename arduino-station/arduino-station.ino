@@ -4,10 +4,10 @@
 #include "Timer.h"
 
 
-#define READ_CYCLE 5000
+#define READ_CYCLE 10000
 
 #define UUID_LENGTH 25
-#define FW_VERSION "18.10.01-d"
+#define FW_VERSION "18.10.12-a"
 
 Timer timer;
 
@@ -36,7 +36,7 @@ struct Measurement {
 struct PmsData {
   int pm1;
   int pm25;
-  int pm10;  
+  int pm10;
 };
 
 void setup() {
